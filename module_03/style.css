@@ -1,0 +1,35 @@
+nav ul li a:hover {color: #03a9f4; text-decoration: none}
+  ul {list-style: none; } 
+  li {display: inline-block;
+    margin-left: 100px ;
+    width: 900; ;}    
+
+
+main {
+    color: rgb(98, 98, 98);
+    font-family: "Myriad Pro"; }
+
+  article{
+      display: inline-block;
+       width: 470px;
+       padding: 25px;
+       box-sizing: border-box; }
+
+ section{
+    margin: 0 auto;
+    width: 960px;
+    text-align: left;
+    }
+
+.p {
+    font-size: 14px;
+
+    text-transform: uppercase;
+  }
+.h3 {
+    font-size: 30px;
+
+}  
+    
+   
+  
