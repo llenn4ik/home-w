@@ -101,15 +101,14 @@ header::after{
         margin-bottom: 30px;
         max-width: 345px;
       }
-}
 
 .h44::after {
     content: "";
-    position: absolute;
+    display: block;
     top: 10px;
-    right: calc(50% - 105px);
+    right: calc(50% - 170px);
     height: 7px;
-    width: 210px;
+    width: 345px;
     background-color: #4ec6ab; }
 
 
@@ -117,8 +116,6 @@ button{
     background-color: #4ec6ab;
 }
 div button:hover {
-    color: #ce3a16;
-
-}
+    color: #f50e7a;
 
 }
