@@ -4,46 +4,54 @@
 }
 font-family: 'Open Sans', sans-serif;
 .conteiner: {
-    width:1120px;
-    margin:0 auto;
+   
     
 }
 /* ХЕДЕР = Лого + навигация*/
-
+.wrapper{
+    width: 1110px;
+    margin:0 auto;
+} 
+    
 nav ul li{
     float: left;
     list-style: none;
     margin-right: 35px ;
     
-    
 }
 nav{
     float: right;
-    top: 50%;
+    margin-top: 36px;
+    
 }
 nav .menu-link {
     color: #0f0101;
-    vertical-align: middle;
+   text-decoration: none;
     text-transform: uppercase;
-}
-.menu-link{
-    vertical-align: middle;
-    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+} 
+nav ul .menu-item:hover .menu-link{
+color: rgb(26, 188, 156);
 }
 
 .logo{
-    /*float: left;*/
+    float: left;
     text-transform: uppercase;
+    position: absolute;
+    top: 32px;
     font-size: 30px;
-    vertical-align: middle;
-    
+}
+.logo-link{
+    text-decoration: none;
 }
 .logo::first-letter{
     color: rgb(26, 188, 156);
 }
 .wrapper{
     height: 91px;
-    vertical-align: middle;
+    width: 1110px;
+   position: relative;
 }
 
 .clearfix { clear: both; }
@@ -112,7 +120,7 @@ nav .menu-link {
 
 
 /*  MAIN = H21 + after + картинки */
-main section {
+main .conteiner {
     background-color:  #dce5f5e5;
  
 }
